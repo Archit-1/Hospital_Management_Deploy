@@ -3,7 +3,7 @@ import { config} from "dotenv";
 
 export const dbConnect = ()=>{
     mongoose.connect(process.env.MONGO_URI,{
-        dbName:"MERN_STACK_HOSPITAL_MANAGEMENT_SYSTEM_DEPLOY",
+        dbName:"HOSPITAL_WORK",
     })
     .then(()=>{
         console.log("your connection is successfully establish");
